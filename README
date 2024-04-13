@@ -1,0 +1,78 @@
+
+COPYRIGHT
+
+This software was written by Grzegorz Kondrak.
+
+Copyright 2000 by Grzegorz Kondrak. All rights reserved.
+
+
+DESCRIPTION
+
+ALINE is the implementation of the algorithm for aligning phonetic
+sequences, which is described in [1] and [2]. The program is written
+in C++ and runs under Solaris. It takes from the standard input a list
+of word pairs and produces a list of alignments on the standard
+output. Assuming that the input data is in the file 'test_set', the
+simplest way to use the program is the following:
+
+	aline < test_set > results
+
+For the required input format, consult the sample test file. The
+first line contains uppercase 'D', which stands for 'Dynamic
+programming' (the only option available right now). The second line
+specifies the number of pairs to be compared. The following lines
+contain the pairs of words in a special notation (see below),
+separated by tabs. Empty lines and lines starting with '#' are
+ignored.
+
+The output contains the alignments together with the overall
+similarity scores. Since local alignment is used, the aligned
+subsequences are delimited by the '|' signs. The '<' sign signifies
+that the previous phonetic segment has been aligned with two segments
+in the other sequence, a case of compression/expansion. The '-' sign
+denotes a "skip", a case of insertion/deletion.
+
+At the start of the output file, the current parameter settings are
+listed. The default values are the same as given in [2]. These
+settings can be changed by specifying the values on the command line.
+The order of the parameters is the following: epsilon, C_sub, C_exp,
+C_skip, C_vwl (see [2] for description). The following example changes
+the parameter values to 0.05, 25, 0, -5, and 5, respectively:
+
+	aline 0.05 25 0 -5 5 < test_set > results
+
+The notation for entering phonetic sequences is discussed in Section
+6.2. of [1]. It's goal is to make it possible to enter IPA symbols
+using the ASCII character set. In the scheme, every phonetic symbol is
+represented by a single lowercase letter followed by zero or more
+uppercase letters. The initial lowercase letter is the base letter
+most similar to the sound represented by the phonetic symbol. The
+remaining uppercase letters stand for the features in which the
+represented sound differs from the sound defined by the base letter.
+The following features are available at present:
+
+D - dental
+P - palatal
+V - palato-alveolar
+A - aspirated
+C - central
+F - front
+H - long
+N - nasal
+S - fricative (spirant)
+
+For examples how various sounds can be expressed using this notation
+see the sample input file, which contains the test set from [3].
+
+
+REFERENCES
+
+[1] G. Kondrak. Alignment of Phonetic Sequences. Technical Report CSRG-402,
+    Computer Systems Research Group, University of Toronto, December 1999.
+
+[2] G. Kondrak. A New Algorithm for the Alignment of Phonetic Sequences.
+    Proceedings of NAACL'2000.
+
+[3] M. A. Covington. An algorithm to align words for historical comparison.
+    Computational Linguistics, 22(4), 1996.
+

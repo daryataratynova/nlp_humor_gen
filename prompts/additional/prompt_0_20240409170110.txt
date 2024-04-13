@@ -1,0 +1,5 @@
+Modify the headline to reflect the context of the news. Make headline funny.
+Headline: Bitcoin Value Drops by 50% Since November Peak
+Lead: The value of Bitcoin has dropped below $31,000 (£25,140) - less than half of what it was at its peak last November, according to the Coinbase cryptocurrency exchange.
+Keywords: Bitcoin Value, Bitcoin, Coinbase cryptocurrency exchange
+Additional Info: A cryptocurrency exchange, or a digital currency exchange (DCE), is a business that allows customers to trade cryptocurrencies or digital currencies for other assets, such as conventional fiat money or other digital currencies. Exchanges may accept credit card payments, wire transfers or other forms of payment in exchange for digital currencies or cryptocurrencies. A cryptocurrency exchange can be a market maker that typically takes the bid–ask spreads as a transaction commission for its service or, as a matching platform, simply charges fees.

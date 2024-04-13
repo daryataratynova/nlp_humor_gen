@@ -1,0 +1,4 @@
+Modify the headline to reflect the context of the news. Make headline funny.
+Headline: Bitcoin Value Drops by 50% Since November Peak
+Lead: The value of Bitcoin has dropped below $31,000 (£25,140) - less than half of what it was at its peak last November, according to the Coinbase cryptocurrency exchange.
+Keywords: Bitcoin Value

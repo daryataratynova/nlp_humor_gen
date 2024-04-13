@@ -1,0 +1,5 @@
+Modify the headline to reflect the context of the news. Make headline funny.
+Headline: NASA: Mystery Object Orbiting Earth Is 54-year-old Rocket, Not Asteroid
+Lead: A mysterious object temporarily orbiting Earth is a 54-year-old rocket, not an asteroid after all, astronomers confirmed Wednesday.
+Keywords: NASA, nan
+Additional Info: A rocket (from Italian: rocchetto, lit. 'bobbin/spool')[nb 1][1] is a vehicle that uses jet propulsion to accelerate without using the surrounding air. A rocket engine produces thrust by reaction to exhaust expelled at high speed.[2] Rocket engines work entirely from propellant carried within the vehicle; therefore a rocket can fly in the vacuum of space. Rockets work more efficiently in a vacuum and incur a loss of thrust due to the opposing pressure of the atmosphere.

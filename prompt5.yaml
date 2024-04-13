@@ -1,0 +1,6 @@
+ Modify the headline to reflect the context of the news. Make headline funny.
+  Headline: {headline}
+  Lead: {context}
+  Keywords: {keywords_title}, {keywords_lead}
+  Additional Info: {additional_info}
+  Can be used to create funny tone

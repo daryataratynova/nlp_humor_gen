@@ -1,0 +1,8 @@
+_type: prompt
+input_variables:
+  - headline
+  - context
+template: |
+  Modify the headline to reflect the context of the news. Make headline funny.
+  Headline: {headline}
+  Lead: {context}
